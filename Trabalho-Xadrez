@@ -1,0 +1,64 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void torre( int contt){
+		printf("Torre:\n");
+	while(contt !=5){
+		printf("Direita\n");
+		contt++ ;
+	}
+}
+
+void bispo(){
+	int ciclo,contb;
+	printf("\n\nBispo:\n");
+	while(ciclo<=5){
+	for(contb=1;contb<=1;contb++){
+		 printf("Cima\n");
+	}
+	for(contb=1;contb<=1;contb++){
+	  printf("Direita\n");
+	  ciclo++;
+	}}
+}
+
+void rainha(int contr){
+	printf("\n\nRainha:\n");
+	do{
+		printf("Esquerda \n");
+		contr++;
+		
+	}while(contr <= 7);
+}
+/* Cavolo cima cima direita*/
+void cavalo(){
+	int move2, move1;
+	for( move1=0;move1<=2;move1++){
+		printf("Cima\n");
+		move1++;
+		while(move2<=1){
+			printf("Direita\n");
+			move2++;
+			move2++;
+			
+			}
+			}
+	}
+	
+	/* bispo cima e direita */
+void  bispo(){
+	int contbh, contbv;
+	while(contbh <=4){
+		printf("Cima\n");
+		do{
+			printf("Direita\n")
+			contbv++;
+		}while(contbv<1);
+		contbh++;
+			}
+	}
+		
+	int main(){
+		bispo();
+		return 0;
+	}
